@@ -1,0 +1,40 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <title> workout jQuery</title>
+</head>
+
+<body id="bodyId">
+
+    <div class="row">
+        <div class="col m-3 text-danger font-weight-bold">
+            <h3>
+                Change Background color:
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="form-group text-center col-md-2  m-3">
+
+            <input type="color" class="form-control" id="colorId" />
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-info  m-3" onclick="changeColor(this)"> 
+                <i class="fa fa-paint-brush p-1" ></i>Change background color aftre <span id=btnTimer>
+                    5</span> second</button>
+        </div>
+    </div >
+    <hr color="red" class=""/> 
+   
+
+</body>
+
+</html>
